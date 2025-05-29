@@ -1,0 +1,47 @@
+.thank-you-container {
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #2b6cb0;
+  animation: fadeIn 2s ease-in-out;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+button {
+  padding: 10px 20px;
+  background-color: #2b6cb0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #225a9c;
+}
